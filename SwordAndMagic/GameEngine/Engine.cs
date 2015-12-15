@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.ComponentModel.Design;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -11,6 +12,8 @@ namespace SwordAndMagic
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Vector2 mPosition = new Vector2(0,0);
+        Texture2D mOptions;
 
         public Engine()
         {
@@ -41,6 +44,8 @@ namespace SwordAndMagic
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            mOptions = this.Content.Load<Texture2D>("Menu/options");
+
         }
 
         /// <summary>
@@ -64,6 +69,14 @@ namespace SwordAndMagic
 
             // TODO: Add your update logic here
 
+            MouseState mouseState = Mouse.GetState();
+
+            if (Mouse.GetState().LeftButton == ButtonState.Pressed && mOptions.Bounds.Contains(Mouse.GetState().Position))
+            {
+                Exit();
+            }
+
+
             base.Update(gameTime);
         }
 
@@ -76,6 +89,10 @@ namespace SwordAndMagic
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+
+            spriteBatch.Begin();
+            spriteBatch.Draw(mOptions, mPosition, Color.White);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
