@@ -1,2 +1,2 @@
 # SwordAndMagic
-OOP RPG Game
+OOP Project - RPG Game
