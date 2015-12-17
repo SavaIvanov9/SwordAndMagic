@@ -50,3 +50,8 @@ C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\SharpDX.RawInput.xml
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\obj\x86\Debug\SwordAndMagic.csprojResolveAssemblyReference.cache
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\doorClosed.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\doorOpened.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\grass2.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\Player1.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\wall4.xnb

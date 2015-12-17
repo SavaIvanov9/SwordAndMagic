@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SwordAndMagic.Exceptions
+﻿namespace SuperRpgGame.Exceptions
 {
-    class ObjectOutOfBoundsException
+    using System;
+
+    public class ObjectOutOfBoundsException : Exception
     {
+        public ObjectOutOfBoundsException(string message)
+            : base(message)
+        {
+        }
     }
 }

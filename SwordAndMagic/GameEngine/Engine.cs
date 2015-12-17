@@ -20,6 +20,11 @@ namespace SwordAndMagic.GameEngine
         public Engine()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.PreferredBackBufferWidth = 1024;
+            graphics.PreferredBackBufferHeight = 768;
+            this.Window.AllowUserResizing = true;
+            this.IsMouseVisible = true;
+
             Content.RootDirectory = "Content";
         }
 

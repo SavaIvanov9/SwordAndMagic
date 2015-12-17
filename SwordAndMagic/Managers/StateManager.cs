@@ -30,6 +30,6 @@ namespace SwordAndMagic.Managers
             set { contentManager = value; }
         }
 
-        public ContentManager Content { get; }
+        public ContentManager Content { get; set; }
     }
 }

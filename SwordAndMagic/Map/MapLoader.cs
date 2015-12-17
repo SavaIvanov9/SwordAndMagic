@@ -5,7 +5,11 @@ using System.Text;
 
 namespace SwordAndMagic.Map
 {
-    class MapLoader
+    public class MapLoader : Map
     {
+        static Map mapObj = new Map();
+
+        char[,] map = mapObj.ReadMap();
+
     }
 }
