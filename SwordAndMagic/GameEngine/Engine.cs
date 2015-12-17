@@ -3,8 +3,9 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace SwordAndMagic
+namespace SwordAndMagic.GameEngine
 {
+    using Managers;
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
@@ -14,6 +15,7 @@ namespace SwordAndMagic
         SpriteBatch spriteBatch;
         Vector2 mPosition = new Vector2(0,0);
         Texture2D mOptions;
+        public static ContentLoader ContentLoader;
 
         public Engine()
         {
@@ -30,7 +32,7 @@ namespace SwordAndMagic
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            
             base.Initialize();
         }
 
@@ -69,12 +71,12 @@ namespace SwordAndMagic
 
             // TODO: Add your update logic here
 
-            MouseState mouseState = Mouse.GetState();
+            //MouseState mouseState = Mouse.GetState();
 
-            if (Mouse.GetState().LeftButton == ButtonState.Pressed && mOptions.Bounds.Contains(Mouse.GetState().Position))
-            {
-                Exit();
-            }
+            //if (Mouse.GetState().LeftButton == ButtonState.Pressed && mOptions.Bounds.Contains(Mouse.GetState().Position))
+            //{
+            //    Exit();
+            //}
 
 
             base.Update(gameTime);

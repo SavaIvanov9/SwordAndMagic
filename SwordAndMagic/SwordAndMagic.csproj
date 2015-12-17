@@ -42,6 +42,7 @@
     <Compile Include="Characters\PlayerControlled\Rogue.cs" />
     <Compile Include="Characters\PlayerControlled\Warrior.cs" />
     <Compile Include="Characters\Character.cs" />
+    <Compile Include="ContentLoader.cs" />
     <Compile Include="GameEngine\Engine.cs" />
     <Compile Include="Interfaces\IAttack.cs" />
     <Compile Include="Interfaces\ICharacter.cs" />

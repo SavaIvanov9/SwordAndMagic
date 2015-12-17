@@ -1,6 +1,6 @@
 ﻿namespace SwordAndMagic.States
 {
-    public class GameState
+    public class GameState : State
     {
     }
 }

@@ -1,7 +1,7 @@
 ﻿namespace SwordAndMagic.States
 {
-    public class MenuState
+    public class MenuState : State
     {
-
+        
     }
 }
