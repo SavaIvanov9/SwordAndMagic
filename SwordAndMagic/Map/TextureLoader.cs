@@ -20,7 +20,8 @@ namespace SwordAndMagic.Map
             Hero = content.Load<Texture2D>("Content/Textures/Player1");
             Wall = content.Load<Texture2D>("Content/Textures/wall4");
             Floor = content.Load<Texture2D>("Content/Textures/grass2");
-            
+            Background = content.Load<Texture2D>("Content/Textures/background");
+
         }
     }
 }

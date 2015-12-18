@@ -55,3 +55,4 @@ C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\grass2.xnb
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\Player1.xnb
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\wall4.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\background.xnb

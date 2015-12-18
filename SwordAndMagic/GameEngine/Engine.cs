@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using SwordAndMagic.Map;
 
 namespace SwordAndMagic.GameEngine
 {
@@ -20,8 +21,10 @@ namespace SwordAndMagic.GameEngine
         public Engine()
         {
             graphics = new GraphicsDeviceManager(this);
+
             graphics.PreferredBackBufferWidth = 1024;
             graphics.PreferredBackBufferHeight = 768;
+
             this.Window.AllowUserResizing = true;
             this.IsMouseVisible = true;
 
@@ -49,6 +52,7 @@ namespace SwordAndMagic.GameEngine
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            TextureLoader.Load(this.Content);
 
             // TODO: use this.Content to load your game content here
             mOptions = this.Content.Load<Texture2D>("Menu/options");
@@ -98,6 +102,9 @@ namespace SwordAndMagic.GameEngine
             // TODO: Add your drawing code here
 
             spriteBatch.Begin();
+            //spriteBatch.Draw(TextureLoader.Background, new Rectangle(0, 0, graphics.GraphicsDevice.Viewport.Width, graphics.GraphicsDevice.Viewport.Height), Color.White);
+           // spriteBatch.Draw(TextureLoader.Hero, mPosition, Color.White);
+
             spriteBatch.Draw(mOptions, mPosition, Color.White);
             spriteBatch.End();
 
