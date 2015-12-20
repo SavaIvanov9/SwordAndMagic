@@ -15,6 +15,7 @@ namespace SwordAndMagic.GameEngine
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Vector2 mPosition = new Vector2(0,0);
+        Vector2 ObjPosCounter = new Vector2(0,0);
         Texture2D mOptions;
         public static ContentLoader ContentLoader;
 
@@ -102,10 +103,83 @@ namespace SwordAndMagic.GameEngine
             // TODO: Add your drawing code here
 
             spriteBatch.Begin();
-            //spriteBatch.Draw(TextureLoader.Background, new Rectangle(0, 0, graphics.GraphicsDevice.Viewport.Width, graphics.GraphicsDevice.Viewport.Height), Color.White);
-           // spriteBatch.Draw(TextureLoader.Hero, mPosition, Color.White);
+            spriteBatch.Draw(TextureLoader.Background, new Rectangle(0, 0, graphics.GraphicsDevice.Viewport.Width, graphics.GraphicsDevice.Viewport.Height), Color.White);
+            
 
-            spriteBatch.Draw(mOptions, mPosition, Color.White);
+            MapLoader mapMatrix = new MapLoader();
+            char[,] map1 = mapMatrix.ReadMap("map1.1.txt");
+
+            for (int i = 0; i < map1.GetLength(0); i++)
+            {
+                for (int j = 0; j < map1.GetLength(1); j++)
+                {
+                    if (map1[i, j] == 'p')
+                    {
+                        spriteBatch.Draw(TextureLoader.Hero, new Vector2(j * 30, i * 30), Color.White);
+                    }
+
+                    else if (map1[i, j] == 'f')
+                    {
+                        spriteBatch.Draw(TextureLoader.Floor, new Vector2(j * 30, i * 30), Color.White);
+                    }
+
+                    else if (map1[i, j] == 'w')
+                    {
+                        spriteBatch.Draw(TextureLoader.Wall, new Vector2(j * 30, i * 30), Color.White);
+                    }
+
+                    else if (map1[i, j] == 's')
+                    {
+                        spriteBatch.Draw(TextureLoader.Sword, new Vector2(j * 30, i * 30), Color.White);
+                    }
+                    else if (map1[i, j] == 'o')
+                    {
+                        spriteBatch.Draw(TextureLoader.DoorOpened, new Vector2(j * 30, i * 30), Color.White);
+                    }
+                    else if (map1[i, j] == 't')
+                    {
+                        spriteBatch.Draw(TextureLoader.Teleport, new Vector2(j * 30, i * 30), Color.White);
+                    }
+                }
+            }
+
+            MapLoader mapMatrix2 = new MapLoader();
+            char[,] map2 = mapMatrix2.ReadMap("map1.2.txt");
+
+            for (int i = 0; i < map2.GetLength(0); i++)
+            {
+                for (int j = 0; j < map2.GetLength(1); j++)
+                {
+                    if (map2[i, j] == 'p')
+                    {
+                        spriteBatch.Draw(TextureLoader.Hero, new Vector2(j * 30, i * 30), Color.White);
+                    }
+
+                    else if (map2[i, j] == 'f')
+                    {
+                        spriteBatch.Draw(TextureLoader.Floor, new Vector2(j * 30, i * 30), Color.White);
+                    }
+
+                    else if (map2[i, j] == 'w')
+                    {
+                        spriteBatch.Draw(TextureLoader.Wall, new Vector2(j * 30, i * 30), Color.White);
+                    }
+
+                    else if (map2[i, j] == 's')
+                    {
+                        spriteBatch.Draw(TextureLoader.Sword, new Vector2(j * 30, i * 30), Color.White);
+                    }
+                    else if (map2[i, j] == 'o')
+                    {
+                        spriteBatch.Draw(TextureLoader.DoorOpened, new Vector2(j * 30, i * 30), Color.White);
+                    }
+                    else if (map2[i, j] == 't')
+                    {
+                        spriteBatch.Draw(TextureLoader.Teleport, new Vector2(j * 30, i * 30), Color.White);
+                    }
+                }
+            }
+
             spriteBatch.End();
 
             base.Draw(gameTime);

@@ -9,11 +9,9 @@ namespace SwordAndMagic.Map
 {
     public class Map
     {
-        
-
-        public char[,] ReadMap()
+        public char[,] ReadMap(string path)
         {
-            StreamReader reader = new StreamReader("Map1.txt");
+            StreamReader reader = new StreamReader(path);
 
             using (reader)
             {

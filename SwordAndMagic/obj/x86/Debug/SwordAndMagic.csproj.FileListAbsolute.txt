@@ -52,7 +52,16 @@ C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\obj\x86\Debug\SwordAndMagic.csprojResolveAssemblyReference.cache
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\doorClosed.xnb
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\doorOpened.xnb
-C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\grass2.xnb
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\Player1.xnb
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\wall4.xnb
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\background.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\background1.1.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\background2.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\background3.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\background4.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\sword-small.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\Sword.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\floor.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\floor2.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\FloorParts.xnb
+C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\r3.xnb

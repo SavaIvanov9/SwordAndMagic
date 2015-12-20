@@ -9,7 +9,7 @@ namespace SwordAndMagic.Map
     {
         static Map mapObj = new Map();
 
-        char[,] map = mapObj.ReadMap();
+        char[,] map = mapObj.ReadMap("map1.1.txt");
 
     }
 }
