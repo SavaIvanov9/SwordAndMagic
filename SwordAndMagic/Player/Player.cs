@@ -10,5 +10,6 @@ namespace SwordAndMagic.Player
 
     public abstract class Player : Character
     {
+
     }
 }

@@ -65,3 +65,44 @@ C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\floor2.xnb
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\FloorParts.xnb
 C:\Users\vivacom.bg\Desktop\SoftUni\Fundamental Level\OOP-RPG-Game\SwordAndMagic\SwordAndMagic\bin\Windows\Debug\Content\Textures\r3.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\obj\x86\Debug\SwordAndMagic.exe
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\obj\x86\Debug\SwordAndMagic.pdb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Menu\options.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\background.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\background1.1.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\background2.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\background3.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\background4.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\doorClosed.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\doorOpened.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\floor.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\floor2.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\FloorParts.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\Player1.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\r3.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\sword-small.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\Sword.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\Content\Textures\wall4.xnb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SwordAndMagic.exe
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SwordAndMagic.pdb
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.dll
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.xml
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\Discord\Downloads\SwordAndMagic-master\SwordAndMagic\obj\x86\Debug\SwordAndMagic.csprojResolveAssemblyReference.cache

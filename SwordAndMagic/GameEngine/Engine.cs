@@ -16,6 +16,7 @@ namespace SwordAndMagic.GameEngine
         SpriteBatch spriteBatch;
         Vector2 mPosition = new Vector2(0,0);
         Vector2 ObjPosCounter = new Vector2(0,0);
+        Vector2 Velocity = new Vector2(0, 0);
         Texture2D mOptions;
         public static ContentLoader ContentLoader;
 
@@ -88,6 +89,17 @@ namespace SwordAndMagic.GameEngine
             //    Exit();
             //}
 
+            //Velocity = Vector2.Zero;
+
+            //if(Keyboard.GetState().IsKeyDown(Keys.Right))
+            //{
+            //    Velocity = new Vector2(0, 1);
+            //}
+            //if(Keyboard.GetState().IsKeyDown(Keys.Left))
+            //{
+            //    Velocity = new Vector2(0, -1);
+            //}
+            
 
             base.Update(gameTime);
         }
@@ -104,7 +116,6 @@ namespace SwordAndMagic.GameEngine
 
             spriteBatch.Begin();
             spriteBatch.Draw(TextureLoader.Background, new Rectangle(0, 0, graphics.GraphicsDevice.Viewport.Width, graphics.GraphicsDevice.Viewport.Height), Color.White);
-            
 
             MapLoader mapMatrix = new MapLoader();
             char[,] map1 = mapMatrix.ReadMap("map1.1.txt");
@@ -115,7 +126,9 @@ namespace SwordAndMagic.GameEngine
                 {
                     if (map1[i, j] == 'p')
                     {
+                        
                         spriteBatch.Draw(TextureLoader.Hero, new Vector2(j * 30, i * 30), Color.White);
+                        
                     }
 
                     else if (map1[i, j] == 'f')
@@ -152,7 +165,28 @@ namespace SwordAndMagic.GameEngine
                 {
                     if (map2[i, j] == 'p')
                     {
-                        spriteBatch.Draw(TextureLoader.Hero, new Vector2(j * 30, i * 30), Color.White);
+                        if (Keyboard.GetState().IsKeyDown(Keys.Right))
+                        {
+                            Velocity.X += 200 * (float)gameTime.ElapsedGameTime.TotalSeconds;
+                            
+                        }
+                        if (Keyboard.GetState().IsKeyDown(Keys.Left))
+                        {
+                            Velocity.X -= 200 * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+                        }
+                        if (Keyboard.GetState().IsKeyDown(Keys.Up))
+                        {
+                            Velocity.Y -= 200 * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+                        }
+                        if (Keyboard.GetState().IsKeyDown(Keys.Down))
+                        {
+                            Velocity.Y += 200 * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+                        }
+                        spriteBatch.Draw(TextureLoader.Hero, new Vector2(j * 30 + Velocity.X, i * 30 + Velocity.Y), Color.White);
+                        //spriteBatch.Draw(TextureLoader.Hero, new Vector2(j * 30, i * 30), Color.White);
                     }
 
                     else if (map2[i, j] == 'f')
