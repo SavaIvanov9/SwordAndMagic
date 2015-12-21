@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SwordAndMagic.Characters.PlayerControlled
+namespace SwordAndMagic.Interfaces
 {
-    public class Warrior
+    public interface IHeal
     {
+        void Heal();
     }
 }

@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SwordAndMagic.Characters.PlayerControlled
+namespace SwordAndMagic.GameEngine
 {
-    public class Mage
+    public interface IMoveable
     {
+        void Move(string direction);
     }
 }

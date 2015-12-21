@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/doorClosed.png</SourceFile>
-  <SourceTime>2015-12-20T22:11:29.9859328+02:00</SourceTime>
-  <DestFile>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/bin/Windows/Textures/doorClosed.xnb</DestFile>
-  <DestTime>2015-12-20T22:13:24.5631745+02:00</DestTime>
+  <SourceFile>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/doorClosed.png</SourceFile>
+  <SourceTime>2015-12-21T00:13:41.9149525+02:00</SourceTime>
+  <DestFile>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/bin/Windows/Textures/doorClosed.xnb</DestFile>
+  <DestTime>2015-12-21T00:18:58.1967944+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-04-29T20:14:44+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -1,7 +1,7 @@
-﻿namespace SuperRpgGame.Exceptions
-{
-    using System;
+﻿using System;
 
+namespace SwordAndMagic.Exceptions
+{
     public class ObjectOutOfBoundsException : Exception
     {
         public ObjectOutOfBoundsException(string message)

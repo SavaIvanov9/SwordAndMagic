@@ -4,21 +4,21 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Menu/options.png</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/doorClosed.png</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/doorOpened.png</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/Player1.png</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/wall4.jpg</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/background.jpg</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/background1.1.jpg</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/background2.jpg</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/background3.png</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/background4.jpg</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/Sword.png</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/sword-small.png</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/floor.png</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/FloorParts.png</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/floor2.png</File>
-    <File>C:/Users/Discord/Downloads/SwordAndMagic-master/SwordAndMagic/Content/Textures/r3.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Menu/options.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/doorClosed.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/doorOpened.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/Player1.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/wall4.jpg</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/background.jpg</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/background1.1.jpg</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/background2.jpg</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/background3.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/background4.jpg</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/Sword.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/sword-small.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/floor.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/FloorParts.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/floor2.png</File>
+    <File>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/r3.png</File>
   </SourceFiles>
 </SourceFileCollection>

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SwordAndMagic.Characters.PlayerControlled
+namespace SwordAndMagic.Objects.Items
 {
-    public class Rogue
+    public enum ItemState
     {
+        Available,
+        Collected
     }
 }

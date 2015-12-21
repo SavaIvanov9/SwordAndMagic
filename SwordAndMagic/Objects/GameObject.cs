@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework.Graphics;
-using SuperRpgGame.Exceptions;
+using SwordAndMagic.Exceptions;
 using SwordAndMagic.Map;
 
 namespace SwordAndMagic.Objects

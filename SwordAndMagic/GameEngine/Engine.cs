@@ -27,8 +27,8 @@ namespace SwordAndMagic.GameEngine
             graphics.PreferredBackBufferWidth = 1024;
             graphics.PreferredBackBufferHeight = 768;
 
-            this.Window.AllowUserResizing = true;
-            this.IsMouseVisible = true;
+            this.Window.AllowUserResizing = false;
+            this.IsMouseVisible = false;
 
             Content.RootDirectory = "Content";
         }
