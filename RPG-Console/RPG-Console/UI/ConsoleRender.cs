@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace RPG_Console.UI
 {
-    public class ConsoleRenderer : IRender
+    using Interfaces;
+    public class ConsoleRender : IRender
     {
         public void WriteLine(string message, params object[] paramaters)
         {

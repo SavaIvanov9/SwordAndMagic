@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace RPG_Console.Characters
 {
+    using Interfaces;
+    using Items;
     public abstract class Character : GameObject, ICharacter
     {
         private string name;

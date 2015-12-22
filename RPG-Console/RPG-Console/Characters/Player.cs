@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace RPG_Console.Characters
 {
+    using Interfaces;
+    using Items;
     public class Player : Character, IPlayer
     {
         private readonly List<Item> inventory;
 
-        public Player(Position position, char objectSymbol, string name, PlayerRace race)
+        public Player(Position position, char objectSymbol, string name, PlayerClass race)
             : base(position, objectSymbol, name, 0, 0)
         {
             this.Race = race;
@@ -18,7 +20,7 @@ namespace RPG_Console.Characters
             this.SetPlayerStats();
         }
 
-        public PlayerRace Race { get; private set; }
+        public PlayerClass Race { get; private set; }
 
         public IEnumerable<Item> Inventory
         {
@@ -54,18 +56,18 @@ namespace RPG_Console.Characters
             this.inventory.Add(item);
         }
 
-        public void Heal()
-        {
-            var beer = this.inventory.FirstOrDefault() as Beer;
+        //public void Heal()
+        //{
+        //    var beer = this.inventory.FirstOrDefault() as Beer;
 
-            if (beer == null)
-            {
-                throw new NotEnoughBeerException("Not enough beer!!!");
-            }
+        //    if (beer == null)
+        //    {
+        //        throw new NotEnoughBeerException("Not enough beer!!!");
+        //    }
 
-            this.Health += beer.HealthRestore;
-            this.inventory.Remove(beer);
-        }
+        //    this.Health += beer.HealthRestore;
+        //    this.inventory.Remove(beer);
+        //}
 
         public override string ToString()
         {
@@ -82,19 +84,19 @@ namespace RPG_Console.Characters
         {
             switch (this.Race)
             {
-                case PlayerRace.Elf:
+                case PlayerClass.Elf:
                     this.Damage = 300;
                     this.Health = 100;
                     break;
-                case PlayerRace.Archangel:
+                case PlayerClass.Archangel:
                     this.Damage = 250;
                     this.Health = 150;
                     break;
-                case PlayerRace.Hulk:
+                case PlayerClass.Hulk:
                     this.Damage = 350;
                     this.Health = 75;
                     break;
-                case PlayerRace.Alcoholic:
+                case PlayerClass.Alcoholic:
                     this.Damage = 200;
                     this.Health = 200;
                     break;

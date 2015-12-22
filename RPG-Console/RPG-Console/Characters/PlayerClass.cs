@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPG_Console.Characters
 {
-    public enum PlayerRace
+    public enum PlayerClass
     {
         Elf = 1,
         Archangel = 2,

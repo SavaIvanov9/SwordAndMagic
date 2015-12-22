@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPG_Console.Interfaces
 {
-    public interface IRenderer
+    public interface IRender
     {
         void WriteLine(string message, params object[] paramaters);
 

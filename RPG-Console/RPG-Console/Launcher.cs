@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace RPG_Console
 {
-    class Launcher
+    using Interfaces;
+    using Engine;
+    using UI;
+    public class Launcher
     {
         static void Main()
         {
-            IRenderer renderer = new ConsoleRenderer();
+            IRender render = new ConsoleRender();
             IInputReader reader = new ConsoleInputReader();
 
-            SuperEngine engine = new SuperEngine(reader, renderer);
+            GameEngine engine = new GameEngine(reader, render);
 
             engine.Run();
         }

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace RPG_Console.Interfaces
 {
-    public interface IPlayer : ICharacter, IMoveable, ICollect, IHeal
+    using Characters;
+    public interface IPlayer : ICharacter, IMoveable, ICollect
     {
-        PlayerClass Class { get; }
+        //PlayerClass Class { get; }
     }
 }

@@ -8,8 +8,8 @@ namespace RPG_Console.Interfaces
 {
     public interface ICollect
     {
-        IEnumerable<Item> Inventory { get; }
+        //IEnumerable<Item> Inventory { get; }
 
-        void AddItemToInventory(Item item);
+        //void AddItemToInventory(Item item);
     }
 }
