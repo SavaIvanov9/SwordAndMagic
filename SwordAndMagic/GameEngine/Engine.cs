@@ -18,6 +18,10 @@ namespace SwordAndMagic.GameEngine
         Vector2 ObjPosCounter = new Vector2(0,0);
         Vector2 Velocity = new Vector2(0, 0);
         Texture2D mOptions;
+
+
+        //private InputHandler inputHandler;
+        private StateManager stateManager;
         public static ContentLoader ContentLoader;
 
         public Engine()
@@ -42,7 +46,10 @@ namespace SwordAndMagic.GameEngine
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            
+            this.stateManager = new StateManager(this.Content, this.graphics);
+            //this.inputHandler = new InputHandler();
+
+
             base.Initialize();
         }
 
@@ -116,6 +123,8 @@ namespace SwordAndMagic.GameEngine
 
             spriteBatch.Begin();
             spriteBatch.Draw(TextureLoader.Background, new Rectangle(0, 0, graphics.GraphicsDevice.Viewport.Width, graphics.GraphicsDevice.Viewport.Height), Color.White);
+
+            this.stateManager.CurrentState.Draw(this.spriteBatch);
 
             MapLoader mapMatrix = new MapLoader();
             char[,] map1 = mapMatrix.ReadMap("map1.1.txt");

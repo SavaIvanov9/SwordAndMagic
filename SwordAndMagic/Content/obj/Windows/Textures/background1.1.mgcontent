@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/Textures/background1.1.jpg</SourceFile>
-  <SourceTime>2015-12-21T00:13:41.7453389+02:00</SourceTime>
-  <DestFile>C:/Users/vivacom.bg/Desktop/SoftUni/Fundamental Level/OOP-RPG-Game/SwordAndMagic/SwordAndMagic/SwordAndMagic/Content/bin/Windows/Textures/background1.1.xnb</DestFile>
-  <DestTime>2015-12-21T00:19:00.0971375+02:00</DestTime>
+  <SourceFile>C:/Users/Moni/Desktop/NewNewGit/SwordAndMagic/SwordAndMagic/Content/Textures/background1.1.jpg</SourceFile>
+  <SourceTime>2015-12-21T20:28:01.7369391+02:00</SourceTime>
+  <DestFile>C:/Users/Moni/Desktop/NewNewGit/SwordAndMagic/SwordAndMagic/Content/bin/Windows/Textures/background1.1.xnb</DestFile>
+  <DestTime>2015-12-21T20:38:13.7710157+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2015-04-29T20:14:44+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
