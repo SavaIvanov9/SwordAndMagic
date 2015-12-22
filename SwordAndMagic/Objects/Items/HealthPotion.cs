@@ -6,12 +6,12 @@ using SwordAndMagic.Map;
 
 namespace SwordAndMagic.Objects.Items
 {
-    public class HealthPotion : Item
+    public class HealthPotion
     {
         private const char HealthSymbol = 'h';
 
         public HealthPotion(Position position, HealthPotionSize healthSize)
-            : base(position, HealthSymbol)
+            //: base(position, HealthSymbol)
         {
             this.HealthPotionSize = healthSize;
         }

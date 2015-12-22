@@ -14,19 +14,19 @@ namespace SwordAndMagic.Objects.Level
 
         public Level(int level, int version)
         {
-            int[,] levelMatrix = LevelLoader.LoadLevel(level, version);
+            char[,] levelMatrix = LevelLoader.LoadLevel(level, version);
             this.GenerateLevel(levelMatrix);
         }
 
         public IEnumerable<Tile> Tiles => this.tiles;
 
-        private void GenerateLevel(int[,] levelMatrix)
+        private void GenerateLevel(char[,] levelMatrix)
         {
             for (int i = 0; i < levelMatrix.GetLength(0); i++)
             {
                 for (int j = 0; j < levelMatrix.GetLength(1); j++)
                 {
-                    int currTile = levelMatrix[j, i];
+                    char currTile = levelMatrix[i, j];
                     if (currTile > 0)
                     {
                         this.tiles.Add(

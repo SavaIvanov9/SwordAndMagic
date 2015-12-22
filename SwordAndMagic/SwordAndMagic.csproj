@@ -41,8 +41,12 @@
   <PropertyGroup>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SwordAndMagic.Launcher</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Characters\Character.cs" />
+    <Compile Include="Characters\Hero\Hero.cs" />
     <Compile Include="ContentLoader.cs" />
     <Compile Include="Exceptions\ObjectOutOfBoundsException.cs" />
     <Compile Include="GameEngine\Engine.cs" />

@@ -1,6 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
+using SwordAndMagic.GameEngine;
 using SwordAndMagic.Interfaces;
 using SwordAndMagic.States;
 
@@ -16,8 +17,8 @@ namespace SwordAndMagic.Managers
 
         public StateManager(ContentManager content, GraphicsDeviceManager graphics)
         {
-            this.CurrentState = new MenuState();
-            this.ContentManager = GameEngine.Engine.ContentLoader.Content;
+            this.CurrentState = new GameState(this.Content, graphics);
+            //this.ContentManager = Engine.ContentManager.Content;
             this.Graphics = graphics;
         }
 

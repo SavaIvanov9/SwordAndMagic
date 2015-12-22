@@ -18,15 +18,15 @@ namespace SwordAndMagic.Map
         public static Texture2D Sword { get; set; }
         public static Texture2D Teleport { get; set; }
 
-        public static void Load(ContentManager content)
-        {
-            Hero = content.Load<Texture2D>("Textures/Player1");
-            Wall = content.Load<Texture2D>("Textures/wall4");
-            DoorOpened = content.Load<Texture2D>("Textures/doorOpened");
-            Floor = content.Load<Texture2D>("Textures/floor2");
-            Background = content.Load<Texture2D>("Textures/background3");
-            Sword = content.Load<Texture2D>("Textures/sword-small");
-            Teleport = content.Load<Texture2D>("Textures/r3");
-        }
+        //public static void Load(ContentManager content)
+        //{
+        //    Hero = content.Load<Texture2D>("Textures/Player1");
+        //    Wall = content.Load<Texture2D>("Textures/wall4");
+        //    DoorOpened = content.Load<Texture2D>("Textures/doorOpened");
+        //    Floor = content.Load<Texture2D>("Textures/floor2");
+        //    Background = content.Load<Texture2D>("Textures/background3");
+        //    Sword = content.Load<Texture2D>("Textures/sword-small");
+        //    Teleport = content.Load<Texture2D>("Textures/r3");
+        //}
     }
 }

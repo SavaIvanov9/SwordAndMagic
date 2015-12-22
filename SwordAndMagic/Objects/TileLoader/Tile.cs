@@ -9,11 +9,10 @@ using SwordAndMagic.Objects;
 
 namespace SwordAndMagic.Objects.TileLoader
 {
-    public abstract class Tile : GameObj
+    public abstract class Tile : GameObject
     {
         protected Texture2D TileTexture;
         private Rectangle rectangle;
-        private static ContentManager content;
 
         public Rectangle Rectangle
         {
@@ -21,11 +20,6 @@ namespace SwordAndMagic.Objects.TileLoader
             protected set { this.rectangle = value; }
         }
 
-        public static ContentManager Content
-        {
-            protected get { return content; }
-            set { content = value; }
-        }
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(this.TileTexture, this.rectangle, Color.White);

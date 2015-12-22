@@ -6,10 +6,10 @@ using SwordAndMagic.Map;
 
 namespace SwordAndMagic.Objects.Terrain
 {
-    public class Obstacle : GameObject
+    public class Obstacle
     {
         protected Obstacle(Position position, char itemSymbol)
-            : base(position, itemSymbol)
+            //: base(position, itemSymbol)
         {
             
         }

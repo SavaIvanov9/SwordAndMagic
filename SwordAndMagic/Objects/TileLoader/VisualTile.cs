@@ -9,9 +9,9 @@ namespace SwordAndMagic.Objects.TileLoader
 {
     public class VisualTile : Tile
     {
-        public VisualTile(int i, Rectangle collisionBox)
+        public VisualTile(char c, Rectangle collisionBox)
         {
-            this.TileTexture = Content.Load<Texture2D>("Textures/floor" + i);
+            this.TileTexture = Content.Load<Texture2D>("Textures/floor2");
             this.Rectangle = collisionBox;
         }
     }
