@@ -12,13 +12,21 @@ namespace RPG_Console.Characters
     {
         private readonly List<Item> inventory;
 
+        public int currentRow = 1;
+        public int currentCol = 1;
+
         public Player(Position position, char objectSymbol, string name, PlayerClass race)
             : base(position, objectSymbol, name, 0, 0)
         {
             this.Race = race;
             this.inventory = new List<Item>();
             this.SetPlayerStats();
+            this.CurrentCol = currentCol;
+            this.CurrentRow = currentRow;
         }
+
+        public int CurrentCol { get; set; }
+        public int CurrentRow { get; set; }
 
         public PlayerClass Race { get; private set; }
 
@@ -30,24 +38,81 @@ namespace RPG_Console.Characters
             }
         }
 
-        public void Move(string direction)
+        public void Move(char[,] map)
         {
-            switch (direction)
+            if (Console.KeyAvailable)
             {
-                case "up":
-                    this.Position = new Position(this.Position.X, this.Position.Y - 1);
-                    break;
-                case "down":
-                    this.Position = new Position(this.Position.X, this.Position.Y + 1);
-                    break;
-                case "right":
-                    this.Position = new Position(this.Position.X + 1, this.Position.Y);
-                    break;
-                case "left":
-                    this.Position = new Position(this.Position.X - 1, this.Position.Y);
-                    break;
-                default:
-                    throw new ArgumentException("Invalid direction.", "direction");
+                ConsoleKeyInfo keyPressed = Console.ReadKey(true);
+                while (Console.KeyAvailable)
+                {
+                    Console.ReadKey(true);
+                }
+                if (keyPressed.Key == ConsoleKey.LeftArrow)
+                {
+                    if ((map[currentRow, currentCol - 1] != '.') &&
+                        (map[currentRow, currentCol - 1] != 'w'))
+                    {
+                        char previousPosition = 'p';
+
+                        map[currentRow, currentCol] = ' ';
+
+                        map[currentRow, currentCol - 1] = previousPosition;
+                        currentCol--;
+                         
+                        
+                        
+                    }
+
+                }
+                if (keyPressed.Key == ConsoleKey.RightArrow)
+                {
+                    if ((map[currentRow, currentCol + 1] != '.') &&
+                        (map[currentRow, currentCol + 1] != 'w'))
+                    {
+                        char previousPosition = 'p';
+
+                        map[currentRow, currentCol] = ' ';
+
+                        map[currentRow, currentCol + 1] = previousPosition;
+                        currentCol++;
+
+                       
+                        
+                    }
+
+                }
+                if (keyPressed.Key == ConsoleKey.DownArrow)
+                {
+                    if ((map[currentRow + 1, currentCol] != 'w') && 
+                        map[currentRow + 1, currentCol] != '.')
+                        
+                    {
+                        char previousPosition = 'p';
+
+                        map[currentRow, currentCol] = ' ';
+
+                        map[currentRow + 1, currentCol] = previousPosition;
+                        currentRow++;
+
+
+
+                    }
+                }
+                if (keyPressed.Key == ConsoleKey.UpArrow)
+                {
+                    if ((map[currentRow - 1, currentCol] != 'w') &&
+                        ((currentRow - 1) > 0))
+                    {
+                        char previousPosition = 'p';
+
+                        map[currentRow, currentCol] = ' ';
+
+                        map[currentRow - 1, currentCol] = previousPosition;
+                        currentRow--;
+
+                        
+                    }
+                }
             }
         }
 
@@ -84,20 +149,20 @@ namespace RPG_Console.Characters
         {
             switch (this.Race)
             {
-                case PlayerClass.Elf:
-                    this.Damage = 300;
+                case PlayerClass.Mage:
+                    this.Damage = 50;
                     this.Health = 100;
                     break;
-                case PlayerClass.Archangel:
-                    this.Damage = 250;
+                case PlayerClass.Warrior:
+                    this.Damage = 20;
+                    this.Health = 300;
+                    break;
+                case PlayerClass.Archer:
+                    this.Damage = 40;
                     this.Health = 150;
                     break;
-                case PlayerClass.Hulk:
-                    this.Damage = 350;
-                    this.Health = 75;
-                    break;
-                case PlayerClass.Alcoholic:
-                    this.Damage = 200;
+                case PlayerClass.Rogue:
+                    this.Damage = 30;
                     this.Health = 200;
                     break;
                 default:

@@ -13,6 +13,8 @@ namespace RPG_Console
     {
         static void Main()
         {
+            Console.CursorVisible = false; 
+
             IRender render = new ConsoleRender();
             IInputReader reader = new ConsoleInputReader();
 

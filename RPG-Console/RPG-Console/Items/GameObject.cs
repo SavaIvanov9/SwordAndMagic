@@ -29,13 +29,13 @@ namespace RPG_Console.Items
             set
             {
                 // Added upper-bound check
-                if (value.X < 0
-                    || value.Y < 0
-                    || value.X >= GameEngine.MapWidth
-                    || value.Y >= GameEngine.MapHeight)
-                {
-                    throw new OutOfBoundsException("Specified coordinates are outside map.");
-                }
+                //if (value.X < 0
+                //    || value.Y < 0
+                //    || value.X >= GameEngine.MapWidth
+                //    || value.Y >= GameEngine.MapHeight)
+                //{
+                //    throw new OutOfBoundsException("Specified coordinates are outside map.");
+                //}
 
                 this.position = value;
             }

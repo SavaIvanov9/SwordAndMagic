@@ -8,9 +8,9 @@ namespace RPG_Console.Characters
 {
     public enum PlayerClass
     {
-        Elf = 1,
-        Archangel = 2,
-        Hulk = 3,
-        Alcoholic = 4
+        Mage = 1,
+        Warrior = 2,
+        Archer = 3,
+        Rogue = 4
     }
 }

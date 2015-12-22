@@ -4,3 +4,9 @@ c:\users\discord\documents\visual studio 2013\Projects\RPG-Console\RPG-Console\b
 c:\users\discord\documents\visual studio 2013\Projects\RPG-Console\RPG-Console\bin\Debug\RPG-Console.pdb
 c:\users\discord\documents\visual studio 2013\Projects\RPG-Console\RPG-Console\obj\Debug\RPG-Console.exe
 c:\users\discord\documents\visual studio 2013\Projects\RPG-Console\RPG-Console\obj\Debug\RPG-Console.pdb
+C:\Users\vivacom.bg\Desktop\SwordAndMagic-master\RPG-Console\RPG-Console\bin\Debug\RPG-Console.exe.config
+C:\Users\vivacom.bg\Desktop\SwordAndMagic-master\RPG-Console\RPG-Console\obj\Debug\RPG-Console.exe
+C:\Users\vivacom.bg\Desktop\SwordAndMagic-master\RPG-Console\RPG-Console\obj\Debug\RPG-Console.pdb
+C:\Users\vivacom.bg\Desktop\SwordAndMagic-master\RPG-Console\RPG-Console\obj\Debug\RPG-Console.csprojResolveAssemblyReference.cache
+C:\Users\vivacom.bg\Desktop\SwordAndMagic-master\RPG-Console\RPG-Console\bin\Debug\RPG-Console.exe
+C:\Users\vivacom.bg\Desktop\SwordAndMagic-master\RPG-Console\RPG-Console\bin\Debug\RPG-Console.pdb

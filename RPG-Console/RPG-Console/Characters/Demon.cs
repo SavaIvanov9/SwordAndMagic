@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG_Console.Interfaces
+namespace RPG_Console.Characters
 {
-    public interface IMoveable
+    class Demon
     {
-        void Move(char[,] map);
     }
 }
